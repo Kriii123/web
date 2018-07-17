@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>RikaZoo</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link href="carousel.css"rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+		<title>jquery.cookieBar </title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			  $('.cookie-message').cookieBar();
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/cookie.css">
+		
+		<style type="text/css">
+		/* Unimportant styles, although you really should include a reset */
+			@import url(http://reset5.googlecode.com/hg/reset.min.css);
+			body { font:14px/21px Helvetica, Arial, serif; }
+			.container {
+				width:640px;
+				margin:60px auto;
+				padding:30px;
+				background:#ededed;
+				border-radius:10px;
+				box-shadow:1px 1px 3px #aaa;
+			}
+			h1 {
+				font-size:30px;
+				margin-bottom:15px;
+			}
+		</style>
+	</head>
+	<body>
+    <!-- This is the start of the super important snippet -->
+    <div class="ui-widget">
+  		<div class="cookie-message ui-widget-header blue">
+			<p>Mēs izmantojam cepumus. Tie ir nekaitīgi un garšo arī alpakām.</p>
+  		</div>
+    </div>
+    
+<div class="header">
+	<div class="wrap">   
+	   <div class="header-top">	
+	        <div class="logo">
+				<a href="index.html"><img src="images/RikaZoo melns.png" alt=""/></a>
+			</div>
+			<div class="phone">
+				<span class="order">Brauc ciemos!</span><br>
+				<h5 class="ph-no">29223601</h5>		
+			</div>
+			<div class="clear"></div> 
+	    </div>
+	</div>
+	<div class="header-bottom">
+	  <div class="wrap">	
+		<div id="cssmenu">
+			 <ul>
+			   <li class="active"><a href="index.html"><span>Sākums</span></a></li>
+			   <li><a href="about.html"><span>Par Mums</span></a></li>
+			   <li class="has-sub"><a href="services.html"><span>Galerija</span></a>
+			   </li>
+			   <li class="last"><a href="contact.html"><span>Kontakti</span></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div> 
+	  </div>
+   </div>
+</div>
+	<!------ Slider ------------>
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="images/IMG_1376.jpg" style="width:100%">
+		  <div class="text">Sveiki!</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="images/IMG_1380.jpg" style="width:100%">
+		  <div class="text">Mēs esam...</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="images/IMG_1901.jpg" style="width:100%">
+		  <div class="text">RikaZOO iedzīvotāji.</div>
+		</div>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+	  <script>
+		var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+		</script>
+		
+  <!------End Slider ------------>
+ 	<div class="main">
+ 	 <div class="top-box">
+	  <div class="wrap">
+		 <div class="content-top">
+			<div class="section group">
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="grid_4">
+	                    <div class="box-1">
+	                        <img src="images/IMG_1378 small.jpg" alt="" class="wrapper" style="text-align: center">
+	                        <div class="inside">
+	                            <h2 class="v1">Alpakas </h2>
+	                            <p class="desc">Alpaka ir kamieļu dzimtas dzīvnieks, kuras dzimtene ir Dienvidamerika. Alpakas no lamām atšķiras ar... </p>
+	                            <a href="about.html"><div class="clearfix"><span class="box-btn"></span></div></a>
+	                        </div>
+	                    </div>
+                	</div>
+                </div>
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="grid_4">
+	                    <div class="box-1">
+	                        <img src="images/indrikis firstpage.jpg" alt="" class="wrapper" style="text-align: center">
+	                        <div class="inside">
+	                            <h2 class="v1">"RikoZOO" iedzīvotāji</h2>
+	                            <p class="desc">INDRIĶIS ir vienīgais lamu puika un vecākais iemītnieks Rika ZOO. Indriķis...</p>
+	                            <a href="services.html"><div class="clearfix"><span class="box-btn"></span></div></a>
+	                        </div>
+	                    </div>
+                	</div>
+                </div>
+				<div class="col_1_of_3 span_1_of_3">
+					<div class="grid_4">
+	                    <div class="box-1">
+	                        <img src="images/IMG_1384 small.jpg" alt="" class="wrapper" style="text-align: center">
+	                        <div class="inside">
+	                            <h2 class="v1">Par "RikoZOO"</h2>
+	                            <p class="desc">“Rika ZOO” atrodas gleznainajā Vecpiebalgas novadā un saimniecība atrodas paugurainā apvidū, tāpēc...</p>
+	                            <a href="about.html"><div class="clearfix"><span class="box-btn"></span></div></a>
+	                        </div>
+	                    </div>
+                	</div>
+                </div>
+				<div class="clear"></div> 
+			</div>
+		</div>
+	  </div>
+	</div>
+	<div class="footer">
+	   <div class="wrap">
+		 <div class="copy">
+			<p> © 2018 All rights Reserved | RikaZoo</a></p>
+		</div>
+		<ul class="follow_icon">
+		   <li><a href="#" style="opacity: 1;"><img src="images/fb.png" alt=""></a></li>
+		   <li><a href="#" style="opacity: 1;"><img src="images/tw.png" alt=""></a></li>
+		   <li><a href="#" style="opacity: 1;"><img src="images/instagram.png" alt=""></a></li>
+		</ul>
+		<div class="clear"></div> 
+	</div>
+	
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+
+    	
+    	
+            
